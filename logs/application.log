@@ -1,0 +1,213 @@
+2016-04-07 23:21:13,408 - [INFO] - from play in pool-4-thread-5 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-04-07 23:22:10,385 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-04-07 23:22:16,485 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-15 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:20,171 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-3 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:23,994 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-14 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:27,733 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-2 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:31,527 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-16 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:35,328 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-15 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:38,962 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-13 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:42,757 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-20 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
+2016-04-07 23:22:46,437 - [ERROR] - from org.apache.spark.streaming.scheduler.ReceiverTracker in spark-akka.actor.default-dispatcher-2 
+Deregistered receiver for stream 0: Restarting receiver with delay 2000ms: Error receiving tweets - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/sample.json?stall_warnings=true'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+Relevant discussions can be found on the Internet at:
+	http://www.google.co.jp/search?q=d0031b0b or
+	http://www.google.co.jp/search?q=1db75513
+TwitterException{exceptionCode=[d0031b0b-1db75513], statusCode=401, message=null, code=-1, retryAfter=-1, rateLimitStatus=null, version=3.0.3}
+	at twitter4j.internal.http.HttpClientImpl.request(HttpClientImpl.java:177)
+	at twitter4j.internal.http.HttpClientWrapper.request(HttpClientWrapper.java:61)
+	at twitter4j.internal.http.HttpClientWrapper.get(HttpClientWrapper.java:89)
+	at twitter4j.TwitterStreamImpl.getSampleStream(TwitterStreamImpl.java:176)
+	at twitter4j.TwitterStreamImpl$4.getStream(TwitterStreamImpl.java:164)
+	at twitter4j.TwitterStreamImpl$TwitterStreamConsumer.run(TwitterStreamImpl.java:462)
+
+
